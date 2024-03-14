@@ -44,9 +44,9 @@
         
     <div class="inside">
         <a href=""><img src="play.svg" alt=""></a>
-        <h1>Latest episode</h1>
-        <h1>ከ12 አቁሜ ስዕል ጀመርኩ : ፊልም ዳይሬክተር እና የፋሽን ብራንድ ዲዛይነር | Kirubel Tibebu</h1>
-        <p>Gugut is an entertainment/educational podcast which is focused on discussing different perspectives on technology, philosophy and day-to-day lives of everyday</p>
+        <span>Latest episode</span>
+        <h1>በራስ ሰዐት መስራት፤ online ማስተማር እና Freelancing | ከቃልኪዳን ጋር የተደረገ ቆይታ</h1>
+        <p>In this episode, we chat with Kalkidan, a software developer, Udemy instructor, and remote work expert. Kalkidan's story is one of determination and hustle. She</p>
         <a href="">See episode</a>
     </div>
  </div>
@@ -57,79 +57,98 @@
         </div>
         <div class="thumbn">
             <div class="info">
-                <img src="maxresdefault.jpg" alt="">
+                <img class="bannerth" src="maxresdefault.jpg" alt="">
                 <h1>በጋራ ንብረት ያፍሩ | ከ ታምራት አበራ ጋር የተደረገ</h1>
-                <div>
-                    <h2>Play this episode</h2>
-                    <p>12/23/34</p>
+                <div class="amistart">
+                    <div class="maker"><img src="episode-play.svg" alt="episode-paly" width="16px"><span>Play this episode</span></div>
+                    <span style="color: rgba(255, 255, 255, 0.6)">04 Mar /23</span>
                 </div>
             </div>
 
             <div class="info">
-                <img src="maxresdefault.jpg" alt="">
+                <img class="bannerth" src="th1.jpeg" alt="">
                 <h1>በጋራ ንብረት ያፍሩ | ከ ታምራት አበራ ጋር የተደረገ</h1>
-                <div>
-                    <h2>Play this episode</h2>
-                    <p>12/23/34</p>
+                <div class="amistart">
+                    <div class="maker"><img src="episode-play.svg" alt="episode-paly" width="16px"><span>Play this episode</span></div>
+                    <span style="color: rgba(255, 255, 255, 0.6)">04 Mar /23</span>
                 </div>
             </div>
             <div class="info">
-                <img src="maxresdefault.jpg" alt="">
+                <img class="bannerth" src="th2.jpeg" alt="">
                 <h1>በጋራ ንብረት ያፍሩ | ከ ታምራት አበራ ጋር የተደረገ</h1>
-                <div>
-                    <h2>Play this episode</h2>
-                    <p>12/23/34</p>
+                <div class="amistart">
+                    <div class="maker"><img src="episode-play.svg" alt="episode-paly" width="16px"><span>Play this episode</span></div>
+                    <span style="color: rgba(255, 255, 255, 0.6)">04 Mar /23</span>
                 </div>
             </div>
             <div class="info">
-                <img src="maxresdefault.jpg" alt="">
+                <img class="bannerth" src="th3.jpeg" alt="">
                 <h1>በጋራ ንብረት ያፍሩ | ከ ታምራት አበራ ጋር የተደረገ</h1>
-                <div>
-                    <h2>Play this episode</h2>
-                    <p>12/23/34</p>
+                <div class="amistart">
+                    <div class="maker"><img src="episode-play.svg" alt="episode-paly" width="16px"><span>Play this episode</span></div>
+                    <span style="color: rgba(255, 255, 255, 0.6)">04 Mar /23</span>
                 </div>
             </div>
             <div class="info">
-                <img src="maxresdefault.jpg" alt="">
+                <img class="bannerth" src="th4.jpeg" alt="">
                 <h1>በጋራ ንብረት ያፍሩ | ከ ታምራት አበራ ጋር የተደረገ</h1>
-                <div>
-                    <h2>Play this episode</h2>
-                    <p>12/23/34</p>
+                <div class="amistart">
+                    <div class="maker"><img src="episode-play.svg" alt="episode-paly" width="16px"><span>Play this episode</span></div>
+                    <span style="color: rgba(255, 255, 255, 0.6)">04 Mar /23</span>
                 </div>
             </div>
             <div class="info">
-                <img src="maxresdefault.jpg" alt="">
+                <img class="bannerth" src="th5.jpeg" alt="">
                 <h1>በጋራ ንብረት ያፍሩ | ከ ታምራት አበራ ጋር የተደረገ</h1>
-                <div>
-                    <h2>Play this episode</h2>
-                    <p>12/23/34</p>
+                <div class="amistart">
+                    <div class="maker"><img src="episode-play.svg" alt="episode-paly" width="16px"><span>Play this episode</span></div>
+                    <span style="color: rgba(255, 255, 255, 0.6)">04 Mar /23</span>
                 </div>
             </div>
         </div>
-        <div class="more">
+        <br><br> <br><br> <br>
+        <div class="morn">
             <h1>Audio</h1>
-            <p>View</p>
+            <a href="https://podcasters.spotify.com/pod/show/gugut"><p>View</p></a>
         </div>
         <div class="audio">
-            <img src="play.svg" alt="">
-            <h1>EP#140 "ከ12 አቁሜ ስዕል ጀመርኩ" : ሙዚቃ ቪዲዮ ፕሮዲውሰር እና የፋሽን ብራንድ ዲዛይነር | Kirubel Tibebu</h1>
-            <p>Gugut is an entertainment/educational podcast which is focused on discussing different perspectives on technology, philosophy and day-to-day lives of everyday</p>
-            <p>February 26 2024</p><hr>
+            <div class="alls">
+                <img src="play.svg" alt="play icon">
+                <div class="allstext">
+                    <div class="ps">
+                        <p class="isover">EP#140 "ከ12 አቁሜ ስዕል ጀመርኩ" : ሙዚቃ ቪዲዮ ፕሮዲውሰር እና የፋሽን ብራንድ ዲዛይነር | Kirubel Tibebu</p>
+                        <p>February 26 2024</p>
+                    </div>
+                    <p class="guro">Gugut is an entertainment/educational podcast which is focused on discussing different perspectives on technology, philosophy and day-to-day lives of everyday</p>
+                </div>
+            </div>
+            <div class="hr"></div>
+            <div class="alls">
+                <img src="play.svg" alt="play icon">
+                <div class="allstext">
+                    <div class="ps">
+                        <p class="isover">EP#140 "ከ12 አቁሜ ስዕል ጀመርኩ" : ሙዚቃ ቪዲዮ ፕሮዲውሰር እና የፋሽን ብራንድ ዲዛይነር | Kirubel Tibebu</p>
+                        <p>February 26 2024</p>
+                    </div>
+                    <p class="guro">Gugut is an entertainment/educational podcast which is focused on discussing different perspectives on technology, philosophy and day-to-day lives of everyday</p>
+                </div>
+            </div>
+            <div class="hr"></div>
+            <div class="alls">
+                <img src="play.svg" alt="play icon">
+                <div class="allstext">
+                    <div class="ps">
+                        <p class="isover">EP#140 "ከ12 አቁሜ ስዕል ጀመርኩ" : ሙዚቃ ቪዲዮ ፕሮዲውሰር እና የፋሽን ብራንድ ዲዛይነር | Kirubel Tibebu</p>
+                        <p>February 26 2024</p>
+                    </div>
+                    <p class="guro">Gugut is an entertainment/educational podcast which is focused on discussing different perspectives on technology, philosophy and day-to-day lives of everyday</p>
+                </div>
+            </div>
+            <div class="hr"></div>
+            <br><br><br><br><br><br><br><br>
         </div>
-        <div class="audio">
-            <img src="play.svg" alt="">
-            <h1>EP#140 "ከ12 አቁሜ ስዕል ጀመርኩ" : ሙዚቃ ቪዲዮ ፕሮዲውሰር እና የፋሽን ብራንድ ዲዛይነር | Kirubel Tibebu</h1>
-            <p>Gugut is an entertainment/educational podcast which is focused on discussing different perspectives on technology, philosophy and day-to-day lives of everyday</p>
-            <p>February 26 2024</p><hr>
         </div>
-        <div class="audio">
-            <img src="play.svg" alt="">
-            <h1>EP#140 "ከ12 አቁሜ ስዕል ጀመርኩ" : ሙዚቃ ቪዲዮ ፕሮዲውሰር እና የፋሽን ብራንድ ዲዛይነር | Kirubel Tibebu</h1>
-            <p>Gugut is an entertainment/educational podcast which is focused on discussing different perspectives on technology, philosophy and day-to-day lives of everyday</p>
-            <p>February 26 2024</p><hr><br><br><br><br><br><br><br><br>
-        </div>
-    </div>
-    
+        
     <footer>
         <div class="contact">
             <div class="iconnav">
@@ -151,7 +170,7 @@
         
         <div class="design">
             <p>© 2023 Gugut Podcast. All rights reserved.</p>
-            <p>Yonathan Dejene</p>
+            <p>Website designed by <a href="">Yonathan Dejene</a></p>
         </div>
     </footer>
 </main>

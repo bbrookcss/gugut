@@ -186,9 +186,44 @@ body{
         display: block;
     }
     .inside{
+        padding-left: 113px;
+        padding-right: 113px;
         position: absolute;
-        background-color: rgb(131, 7, 7);
-        bottom: -300px;
+        bottom: -785px;
+    }
+    .inside h1{
+       font-size: 37px;
+       width: 40%;
+       
+    }
+    .inside p{
+        color: rgba(255, 255, 255, 0.678);
+        font-weight: 200;
+        font-size: 17px;
+        line-height: 1.7;
+        letter-spacing: 0.02em;
+        width: 32%;
+    }
+    .inside a:hover{
+        letter-spacing: 0.05em;
+    }
+    .inside a{
+        font-size: 17px;
+        text-transform: capitalize;
+        text-decoration: underline;
+        font-weight: 200;
+        color: rgba(255, 255, 255, 0.857);
+    }
+    .inside img{
+        position: relative;
+        left: 48%;
+        top: 70px;
+    }
+    .inside span{
+        color: #f39b35;
+        text-transform: uppercase;
+        font-size: 15px;
+        font-weight: 600;
     }
     .finalsection{
         padding-right: 113px;
@@ -201,7 +236,18 @@ body{
         justify-content: space-between;
         align-items: center;
     }
-    
+    .morn{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .morn h1{
+        font-weight: 400;
+    }
+    .morn a{
+        color: #f39b35;
+        text-decoration: underline;
+    }
     .thumbn{
         display: grid;
 	    grid-template-columns: repeat(auto-fit, minmax(30%, 5fr));
@@ -209,25 +255,101 @@ body{
 	    grid-row-gap: 30px;
 	    margin-top: 15px;
     }
-    .thumbn img{
+    .bannerth{
         width: 100%;
         border-radius: 15px;
+        transition: .2s;
     }
-    .thumbn h1{
-        font-size: 20px;
+    .maker{
+        display: flex;
+        align-items: stretch;
+    }
+    .maker img{
+        padding-left: 0px;
+    }
+    .maker span{
+        padding-left: 10px;
+        font-size: 17px;
+        color: #f39b35;
+        text-transform: capitalize;
+    }
+    .maker span:hover{
+        text-decoration: underline;
+    }
+    .thumbn img:hover{
+        scale: 104%;
+        color: rgba(255, 255, 255, 0.6);
+    }
+    .amistart{
+        margin-top: 16px;
+        padding-left: 8px;
+        display: flex;
+        justify-content: space-between;
     }
     .info{
         align-items: flex-start;
 	    margin-top: 7px;
     }
-    
-    .info p{
-        justify-content: end;
+    .info h1{
+        overflow-y: hidden;
+        font-size: 18px;
+        line-height: 28px;
+        transition: .5s;
+    }
+    .info h1:hover{
+        scale: 105%;
+        text-decoration: underline;
+    }
+    .alls{
+       display: flex;
+       align-items: center;
+    }
+    .alls img{
+        width: 80px;
+        border-radius: 9999px;
+        cursor: pointer;
+    }
+    .alls img:hover{
+        scale: 105%;
+
+        transition: .3s;
+    }
+    .allstext{
+        flex: 1 1 0%;
+        overflow-x: auto;
+        margin-left: 32px;
+        
+    }
+    .ps{
+        justify-content: space-between;
+        margin: 10px 0;
         display: flex;
     }
-    footer{
-        padding: 0;
-        margin: 0;
+    .ps p:last-child{
+        color: rgba(255, 255, 255, 0.60);
+        font-weight: 100;
+        font-size: 18px;
+    }
+    .isover{
+        letter-spacing: 0.025em;
+        font-size: 21px;
+        color: white;
+        width: 50%;
+    }
+    .guro{
+        overflow: hidden;
+        font-weight: 200;
+        width: 50%;
+        font-size: 18px;
+        color: rgba(255, 255, 255, 0.60);
+        overflow: hidden;
+        line-height: 1.625;
+    }
+    .hr{
+        height: 1px;
+        background-color: white;
+        width: 100%;
+        margin-bottom: 24px;
     }
     .contact{
         background-color: #292929;
@@ -253,6 +375,7 @@ body{
         text-align: center;
     }
     
+    
     .nav a li{
         color: rgb(184, 184, 184);
         padding: 0 10px;
@@ -262,10 +385,23 @@ body{
     }
     .nav a li:hover{
         color: rgb(225, 165, 0);
+        text-decoration: underline;
         scale: 107%;
     }
     .design{
         background-color: #242424;
+        display: flex;
+        align-items: center;
+        color: #797979;
+        flex-direction: column;
+    }
+    .design p{
+        margin: 6px 50px;
+        font-size: 14px;
+    }
+    .design a{
+        color: rgb(204, 133, 1);
+        text-decoration: underline;
     }
 	@media (min-width: 640px) {
 		main {
