@@ -1,5 +1,13 @@
 <script>
-    
+    let navigationVisible = false;
+    let imageScaled = false;
+
+function toggleImageScale() {
+    imageScaled = !imageScaled;
+    navigationVisible = !navigationVisible;
+}
+
+
 </script>
 <main>
     <header>
@@ -8,12 +16,13 @@
             <span>podcast</span>
         </div>
         <div class="detail">
-            <div class="navigation">
-                <a href=""><li>about us</li></a>
-                <a href=""><li>giveaway</li></a>
-                <a href=""><li>inquiries</li></a>
+            <img src="nav.png" alt="" class="{imageScaled ? 'scaled' : ''}" on:click={toggleImageScale}>
+            <div class="navigation {navigationVisible ? 'visible' : ''}">
+              <a href=""><li>about us</li></a>
+              <a href=""><li>giveaway</li></a>
+              <a href=""><li>inquiries</li></a>
             </div>
-        </div>
+          </div>
     </header>
     <section>
         <div class="firstsection">
@@ -26,7 +35,7 @@
             </div>
             <div class="circle">
                 <div class="circlee">
-                    <img src="logo.svg" alt="logo">
+                    <img src="logo.svg"  alt="logo">
                 </div>
             </div>
             <div></div>
@@ -39,9 +48,11 @@
         <a href=""><img src="teraki.svg" alt=""></a>
     </div>
     <div class="fosection">
-        <div class="gradient"></div>
-        <img class="" src="fin.jpeg" alt="thumb" width="100%">
         
+       
+        <div class="image-with-gradient">
+            <img src="fin.jpeg" alt="thumb" width="100%">
+          </div>
     <div class="inside">
         <a href=""><img src="play.svg" alt=""></a>
         <span>Latest episode</span>
@@ -53,7 +64,7 @@
     <div class="finalsection">
         <div class="more">
             <h1>More episodes</h1>
-            <p>View</p>
+            <a href=""><p>View</p></a>
         </div>
         <div class="thumbn">
             <div class="info">
@@ -61,7 +72,7 @@
                 <h1>በጋራ ንብረት ያፍሩ | ከ ታምራት አበራ ጋር የተደረገ</h1>
                 <div class="amistart">
                     <div class="maker"><img src="episode-play.svg" alt="episode-paly" width="16px"><span>Play this episode</span></div>
-                    <span style="color: rgba(255, 255, 255, 0.6)">04 Mar /23</span>
+                    <span class="yetersa" style="color: rgba(255, 255, 255, 0.6)">04 Mar /23</span>
                 </div>
             </div>
 
@@ -70,7 +81,7 @@
                 <h1>በጋራ ንብረት ያፍሩ | ከ ታምራት አበራ ጋር የተደረገ</h1>
                 <div class="amistart">
                     <div class="maker"><img src="episode-play.svg" alt="episode-paly" width="16px"><span>Play this episode</span></div>
-                    <span style="color: rgba(255, 255, 255, 0.6)">04 Mar /23</span>
+                    <span class="yetersa" style="color: rgba(255, 255, 255, 0.6)">04 Mar /23</span>
                 </div>
             </div>
             <div class="info">
@@ -78,7 +89,7 @@
                 <h1>በጋራ ንብረት ያፍሩ | ከ ታምራት አበራ ጋር የተደረገ</h1>
                 <div class="amistart">
                     <div class="maker"><img src="episode-play.svg" alt="episode-paly" width="16px"><span>Play this episode</span></div>
-                    <span style="color: rgba(255, 255, 255, 0.6)">04 Mar /23</span>
+                    <span class="yetersa" style="color: rgba(255, 255, 255, 0.6)">04 Mar /23</span>
                 </div>
             </div>
             <div class="info">
@@ -86,7 +97,7 @@
                 <h1>በጋራ ንብረት ያፍሩ | ከ ታምራት አበራ ጋር የተደረገ</h1>
                 <div class="amistart">
                     <div class="maker"><img src="episode-play.svg" alt="episode-paly" width="16px"><span>Play this episode</span></div>
-                    <span style="color: rgba(255, 255, 255, 0.6)">04 Mar /23</span>
+                    <span class="yetersa" style="color: rgba(255, 255, 255, 0.6)">04 Mar /23</span>
                 </div>
             </div>
             <div class="info">
@@ -94,7 +105,7 @@
                 <h1>በጋራ ንብረት ያፍሩ | ከ ታምራት አበራ ጋር የተደረገ</h1>
                 <div class="amistart">
                     <div class="maker"><img src="episode-play.svg" alt="episode-paly" width="16px"><span>Play this episode</span></div>
-                    <span style="color: rgba(255, 255, 255, 0.6)">04 Mar /23</span>
+                    <span class="yetersa" style="color: rgba(255, 255, 255, 0.6)">04 Mar /23</span>
                 </div>
             </div>
             <div class="info">
@@ -102,22 +113,22 @@
                 <h1>በጋራ ንብረት ያፍሩ | ከ ታምራት አበራ ጋር የተደረገ</h1>
                 <div class="amistart">
                     <div class="maker"><img src="episode-play.svg" alt="episode-paly" width="16px"><span>Play this episode</span></div>
-                    <span style="color: rgba(255, 255, 255, 0.6)">04 Mar /23</span>
+                    <span class="yetersa" style="color: rgba(255, 255, 255, 0.6)">04 Mar /23</span>
                 </div>
             </div>
         </div>
         <br><br> <br><br> <br>
         <div class="morn">
             <h1>Audio</h1>
-            <a href="https://podcasters.spotify.com/pod/show/gugut"><p>View</p></a>
+            <a href=""><p>View</p></a>
         </div>
         <div class="audio">
             <div class="alls">
                 <img src="play.svg" alt="play icon">
                 <div class="allstext">
                     <div class="ps">
-                        <p class="isover">EP#140 "ከ12 አቁሜ ስዕል ጀመርኩ" : ሙዚቃ ቪዲዮ ፕሮዲውሰር እና የፋሽን ብራንድ ዲዛይነር | Kirubel Tibebu</p>
-                        <p>February 26 2024</p>
+                        <p class="isover">EP#140 "ከ12 አቁሜ ስዕል ጀመርኩ" : ሙዚቃ Tibebu</p>
+                        <p class="lasts">February 26 2024</p>
                     </div>
                     <p class="guro">Gugut is an entertainment/educational podcast which is focused on discussing different perspectives on technology, philosophy and day-to-day lives of everyday</p>
                 </div>
@@ -127,8 +138,8 @@
                 <img src="play.svg" alt="play icon">
                 <div class="allstext">
                     <div class="ps">
-                        <p class="isover">EP#140 "ከ12 አቁሜ ስዕል ጀመርኩ" : ሙዚቃ ቪዲዮ ፕሮዲውሰር እና የፋሽን ብራንድ ዲዛይነር | Kirubel Tibebu</p>
-                        <p>February 26 2024</p>
+                        <p class="isover">EP 145 "ከ12 አቁሜ ስዕል ጀመርኩ" : ሙዚቃ ቪዲዮ ፕሮዲውሰር እና የፋሽን ብራንድ ዲዛይነር | Kirubel Tibebu</p>
+                        <p class="lasts">February 26 2024</p>
                     </div>
                     <p class="guro">Gugut is an entertainment/educational podcast which is focused on discussing different perspectives on technology, philosophy and day-to-day lives of everyday</p>
                 </div>
@@ -138,8 +149,8 @@
                 <img src="play.svg" alt="play icon">
                 <div class="allstext">
                     <div class="ps">
-                        <p class="isover">EP#140 "ከ12 አቁሜ ስዕል ጀመርኩ" : ሙዚቃ ቪዲዮ ፕሮዲውሰር እና የፋሽን ብራንድ ዲዛይነር | Kirubel Tibebu</p>
-                        <p>February 26 2024</p>
+                        <p class="isover">ስዕል ጀመርኩ" : ሙዚቃ ቪዲዮ ፕሮዲውሰር እና የፋሽን ብራንድ ዲዛይነር | Kirubel Tibebu</p>
+                        <p class="lasts">February 26 2024</p>
                     </div>
                     <p class="guro">Gugut is an entertainment/educational podcast which is focused on discussing different perspectives on technology, philosophy and day-to-day lives of everyday</p>
                 </div>
